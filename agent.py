@@ -59,11 +59,11 @@ class mainLLM:
         Extract the requested information in clear format.
         return proper detailed humanized formatted text it should be easy to read clear and detailed and up to point and should be what is asked.
         it is the final answer to the user so dont include any other info. you are an expert in writing detailed and clear text.
-        If you cannot find the information, respond with "Information not found".
         Provide the final answer below:
         it should be detailed and up to point.
         it should be less than 150 words.
         clearly mention the source of information with each valid point eg amazon flipkart wikipedia etc.
         Dont make things bold or highlighted.keep normal text format.
         """
+        #return 
         return self.call_llm(prompt)
